@@ -1,0 +1,13 @@
+name = input()
+
+num = 0
+
+for x in name:
+    if x=="a":
+        num+=1
+print(f"被统计的字符串有{num}个a")
+
+
+  
+for x in range(10,20,5):
+    print(x)
